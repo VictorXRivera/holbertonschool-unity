@@ -73,3 +73,4 @@ New materials should be named as listed below. You cannot use scripts in this ta
 ### 6. Tag yourself
 * Duplicate 5-more_colors, rename it 6-tags, and open it.
 * Add a tag to all Ball objects called Obstacles.
+
