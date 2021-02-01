@@ -1112,13 +1112,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.078459114, y: 0, z: 0, w: 0.99691737}
+  m_LocalPosition: {x: 0, y: 2.5, z: -6.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9, y: 0, z: 0}
 --- !u!1001 &1017733474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1571,5 +1571,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3901257525463094925, guid: 79c7e3edde1c77f42843572dd5636aec,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79c7e3edde1c77f42843572dd5636aec, type: 3}
+--- !u!1 &7785327832996375784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3901257525463094925, guid: 79c7e3edde1c77f42843572dd5636aec,
+    type: 3}
+  m_PrefabInstance: {fileID: 7785327832996375783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &7785327832996375785
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7785327832996375784}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 10
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &7785327832996375786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7785327832996375784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c9ff153a1520e4392dde9016801a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7785327832996375785}
+  speed: 100
+  jumpHeight: 10
+  isGrounded: 1
+  NumberJumps: 0
+  MaxJumps: 2
