@@ -27,4 +27,9 @@ For the next few projects, we’ll be building a simple 3D platformer game (see 
 * In your scripts, all your public classes and their members should have XML documentation tags
 * In your scripts, all your private classes and members should be documented but without XML documentation tags
 
-## Tasks
+## Task
+Create a 3D Platformer while following requirements.
+
+Skyboxes: Farland Skies - Cloudy Crown
+
+Models: Kenney's Nature Pack Extended
