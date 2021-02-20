@@ -275,7 +275,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -285,9 +285,10 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 627205d15a85ed947930d13dad56acbe,
+      type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 627205d15a85ed947930d13dad56acbe, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 627205d15a85ed947930d13dad56acbe, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -620,7 +621,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -630,9 +631,10 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 0402a0bac027c7845a56dc4b701e5c8d,
+      type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 0402a0bac027c7845a56dc4b701e5c8d, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 0402a0bac027c7845a56dc4b701e5c8d, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -816,7 +818,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1200, y: 800}
+  m_ReferenceResolution: {x: 1280, y: 800}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
@@ -926,7 +928,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -939,7 +941,7 @@ MonoBehaviour:
     m_HighlightedSprite: {fileID: 21300000, guid: 66e08c60be83dea40a614c83209a155e,
       type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 66e08c60be83dea40a614c83209a155e, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: 0f4633efbdd4c8e4bb2bf77ef202392a, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 66e08c60be83dea40a614c83209a155e, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1167,6 +1169,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6054078254924323259, guid: 05def2c4287f9d34d987b0a299467695,
+        type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6054078254924323259, guid: 05def2c4287f9d34d987b0a299467695,
+        type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c076f5423a31774b85f6e15843bb394,
+        type: 3}
+    - target: {fileID: 6054078254924323259, guid: 05def2c4287f9d34d987b0a299467695,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c076f5423a31774b85f6e15843bb394,
+        type: 3}
+    - target: {fileID: 6054078254924323259, guid: 05def2c4287f9d34d987b0a299467695,
+        type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c076f5423a31774b85f6e15843bb394,
+        type: 3}
     - target: {fileID: 7030199344528890686, guid: 05def2c4287f9d34d987b0a299467695,
         type: 3}
       propertyPath: m_Name
@@ -1187,6 +1212,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1317972697}
     m_Modifications:
+    - target: {fileID: 1000227677031932913, guid: d6cbce8df75df1345b0074acb8b86e4a,
+        type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000227677031932913, guid: d6cbce8df75df1345b0074acb8b86e4a,
+        type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c076f5423a31774b85f6e15843bb394,
+        type: 3}
+    - target: {fileID: 1000227677031932913, guid: d6cbce8df75df1345b0074acb8b86e4a,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c076f5423a31774b85f6e15843bb394,
+        type: 3}
+    - target: {fileID: 1000227677031932913, guid: d6cbce8df75df1345b0074acb8b86e4a,
+        type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c076f5423a31774b85f6e15843bb394,
+        type: 3}
     - target: {fileID: 1575880205004270001, guid: d6cbce8df75df1345b0074acb8b86e4a,
         type: 3}
       propertyPath: m_Name
@@ -1296,6 +1344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3743497429441757099, guid: d6cbce8df75df1345b0074acb8b86e4a,
+        type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6cbce8df75df1345b0074acb8b86e4a, type: 3}
