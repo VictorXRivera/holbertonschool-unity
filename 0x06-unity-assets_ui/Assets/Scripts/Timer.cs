@@ -9,8 +9,8 @@ using System;
 public class Timer : MonoBehaviour
 {
     public Text TimerText;
-
     public Stopwatch timer;
+    public Text WinText;
 
     void Start()
     {
@@ -22,5 +22,10 @@ public class Timer : MonoBehaviour
     {
         TimeSpan timespan = timer.Elapsed;
         TimerText.text = string.Format ("{0:00}:{1:00}.{2:00}", timespan.Minutes, timespan.Seconds, timespan.Milliseconds / 10);
+    }
+
+    public void Win()
+    {
+        WinText.text = TimerText.text;
     }
 }

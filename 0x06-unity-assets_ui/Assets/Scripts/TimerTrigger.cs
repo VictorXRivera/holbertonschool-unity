@@ -14,7 +14,6 @@ public class TimerTrigger : MonoBehaviour
     void OnTriggerExit(Collider collider)
     {
         TimerScript.enabled = true;
-
         gameObject.SetActive(false);
     }
 }
