@@ -4,6 +4,12 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 420714208305049663
+    second: button-level01
+  - first:
+      213: 1313888027037832839
+    second: button-level01_
+  - first:
+      213: -5796423069471581869
     second: button-level01_2
   externalObjects: {}
   serializedVersion: 12
@@ -50,7 +56,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 1208, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
@@ -107,14 +113,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button-level01_2
+      name: button-level01
       rect:
         serializedVersion: 2
-        x: 1202
-        y: 0
-        width: 598
-        height: 650
-      alignment: 9
+        x: 0
+        y: 17
+        width: 600
+        height: 613
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -127,10 +133,52 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: button-level01_
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 19
+        width: 600
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7869a36033edb3210800000000000000
+      internalID: 1313888027037832839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-level01_2
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 18
+        width: 579
+        height: 583
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3595448dde7fe8fa0800000000000000
+      internalID: -5796423069471581869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 79ada64102a2c604e88d716ea9365bae
     internalID: 0
     vertices: []
     indices: 

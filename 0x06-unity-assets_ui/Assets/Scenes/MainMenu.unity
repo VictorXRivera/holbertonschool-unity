@@ -595,9 +595,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: -5157315286894508882, guid: ff7f3bb8f0ef89e4b8d89dcec64c5ae5,
+    m_HighlightedSprite: {fileID: -3843923788717299226, guid: aa0d15a25a778ea44a47c2ef44610aab,
       type: 3}
-    m_PressedSprite: {fileID: -5157315286894508882, guid: 905c675e5e42d9141a1bbec54509bfa7,
+    m_PressedSprite: {fileID: 5809756550102309710, guid: aa0d15a25a778ea44a47c2ef44610aab,
       type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -887,9 +887,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 420714208305049663, guid: 02930c875a48f0a4bab9ddbc7b90487e,
+    m_HighlightedSprite: {fileID: 1313888027037832839, guid: f40c15c2d2c02c24494977a8aa049fb6,
       type: 3}
-    m_PressedSprite: {fileID: 420714208305049663, guid: f40c15c2d2c02c24494977a8aa049fb6,
+    m_PressedSprite: {fileID: -5796423069471581869, guid: f40c15c2d2c02c24494977a8aa049fb6,
       type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -936,8 +936,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 420714208305049663, guid: 69e4d39cfaeeead4186c13e76ae7f2cc, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 420714208305049663, guid: f40c15c2d2c02c24494977a8aa049fb6, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1021,9 +1021,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 7337038250502186093, guid: 79c853bad5436204f84cc1e49cb21be1,
+    m_HighlightedSprite: {fileID: -1561580840248355024, guid: ed666f364651bf44ea7fcb296d74dd9d,
       type: 3}
-    m_PressedSprite: {fileID: -4865063241043771417, guid: b0d72fba7dd4d544dadcb1289928693b,
+    m_PressedSprite: {fileID: -2404911329485341581, guid: ed666f364651bf44ea7fcb296d74dd9d,
       type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -1358,7 +1358,12 @@ PrefabInstance:
     - target: {fileID: 5621851249711765454, guid: 73fa5d815acd4034da12e9ca0bc90be1,
         type: 3}
       propertyPath: m_Type
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5621851249711765454, guid: 73fa5d815acd4034da12e9ca0bc90be1,
+        type: 3}
+      propertyPath: m_UseSpriteMesh
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5621851249711765454, guid: 73fa5d815acd4034da12e9ca0bc90be1,
         type: 3}
@@ -1485,6 +1490,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5621851249711765489, guid: 73fa5d815acd4034da12e9ca0bc90be1,
+        type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 1641548200286959669, guid: 90ecf8e37f9b42e4892dd04b9fe1c041,
+        type: 3}
+    - target: {fileID: 5621851249711765489, guid: 73fa5d815acd4034da12e9ca0bc90be1,
+        type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 8440510077267459181, guid: 90ecf8e37f9b42e4892dd04b9fe1c041,
+        type: 3}
     - target: {fileID: 5621851249711765489, guid: 73fa5d815acd4034da12e9ca0bc90be1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

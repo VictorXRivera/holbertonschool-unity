@@ -5,6 +5,12 @@ TextureImporter:
   - first:
       213: 3945451662944984592
     second: bg-button
+  - first:
+      213: 8440510077267459181
+    second: bg-button_
+  - first:
+      213: 1641548200286959669
+    second: bg-button_2
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -127,10 +133,52 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bg-button_
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cb1ae0237b22570800000000000000
+      internalID: 8440510077267459181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-button_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53839cf0463f7c610800000000000000
+      internalID: 1641548200286959669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 32eb0897d5615b24ba7fb68457bacf34
+    spriteID: 03cd29b6cbb059a4190cc7719e6ef4ad
     internalID: 0
     vertices: []
     indices: 
