@@ -646,7 +646,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -5157315286894508882, guid: aa0d15a25a778ea44a47c2ef44610aab,
     type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -714,9 +714,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -937,7 +937,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 420714208305049663, guid: 69e4d39cfaeeead4186c13e76ae7f2cc, type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1072,7 +1072,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 5490915748702937267, guid: ed666f364651bf44ea7fcb296d74dd9d,
     type: 3}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1341,6 +1341,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4136602021016417683, guid: 405146a7990366d42b415b8e98995b2e,
+        type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 405146a7990366d42b415b8e98995b2e, type: 3}
 --- !u!1001 &5621851248345069486
@@ -1350,6 +1355,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 930573857}
     m_Modifications:
+    - target: {fileID: 5621851249711765454, guid: 73fa5d815acd4034da12e9ca0bc90be1,
+        type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5621851249711765454, guid: 73fa5d815acd4034da12e9ca0bc90be1,
+        type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5621851249711765488, guid: 73fa5d815acd4034da12e9ca0bc90be1,
         type: 3}
       propertyPath: m_Pivot.x
