@@ -351,7 +351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Resume
+  m_Text: Restart
 --- !u!1 &2688875198261062446
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,7 +927,7 @@ GameObject:
   - component: {fileID: 2688875199817642577}
   - component: {fileID: 2688875199817642582}
   m_Layer: 5
-  m_Name: MenuButton
+  m_Name: MenuText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
