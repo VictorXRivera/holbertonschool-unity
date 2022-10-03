@@ -142,11 +142,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: de6a8d1d426bdb74a8b2c50320732327, type: 3}
-    m_FontSize: 36
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -272,8 +272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb66dd182cba1044ebb59e0791f4f00f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameisPaused: 0
-  PauseCanvas: {fileID: 2688875197909783900}
+  PauseCanvas: {fileID: 2688875197909783897}
 --- !u!1 &2688875198230626635
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +429,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 3
 --- !u!114 &2688875198261062440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,9 +459,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 3945451662944984592, guid: 25953d49ffa83ee45807467cd47a7d69,
+    m_HighlightedSprite: {fileID: 8440510077267459181, guid: 90ecf8e37f9b42e4892dd04b9fe1c041,
       type: 3}
-    m_PressedSprite: {fileID: 3945451662944984592, guid: 436e7bfd918310a4694c0bf16307f9ee,
+    m_PressedSprite: {fileID: 1641548200286959669, guid: 90ecf8e37f9b42e4892dd04b9fe1c041,
       type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -566,7 +565,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 3
 --- !u!114 &2688875198853376823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -596,9 +595,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 3945451662944984592, guid: 25953d49ffa83ee45807467cd47a7d69,
+    m_HighlightedSprite: {fileID: 8440510077267459181, guid: 90ecf8e37f9b42e4892dd04b9fe1c041,
       type: 3}
-    m_PressedSprite: {fileID: 3945451662944984592, guid: 436e7bfd918310a4694c0bf16307f9ee,
+    m_PressedSprite: {fileID: 1641548200286959669, guid: 90ecf8e37f9b42e4892dd04b9fe1c041,
       type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -857,7 +856,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 3
 --- !u!114 &2688875199745643599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -887,9 +886,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 3945451662944984592, guid: 25953d49ffa83ee45807467cd47a7d69,
+    m_HighlightedSprite: {fileID: 8440510077267459181, guid: 90ecf8e37f9b42e4892dd04b9fe1c041,
       type: 3}
-    m_PressedSprite: {fileID: 3945451662944984592, guid: 436e7bfd918310a4694c0bf16307f9ee,
+    m_PressedSprite: {fileID: 1641548200286959669, guid: 90ecf8e37f9b42e4892dd04b9fe1c041,
       type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
