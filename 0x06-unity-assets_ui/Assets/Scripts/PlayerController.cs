@@ -4,44 +4,35 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public float moveSpeed;
+    public float jumpForce;
     public CharacterController controller;
-    public Vector3 playerVelocity;
-    public bool groundedPlayer;
-    public float playerSpeed = 2.0f;
-    public float jumpHeight = 1.0f;
-    public float gravityValue = -9.81f;
 
-    public float threshold;
+    private Vector3 moveDirection;
+    public float gravityScale;
 
-    void FixedUpdate()
+    void Start()
     {
-        if (transform.position.y < threshold)
-            transform.position = new Vector3(0, 1.25f, 0);
+        controller = GetComponent<CharacterController>();
     }
 
     void Update()
     {
-        groundedPlayer = controller.isGrounded;
-        if (groundedPlayer && playerVelocity.y < 0)
+        float yStore = moveDirection.y;
+        moveDirection = (transform.forward * Input.GetAxis("Vertical")) + (transform.right * Input.GetAxis("Horizontal"));
+        moveDirection = moveDirection.normalized * moveSpeed;
+        moveDirection.y = yStore;
+        
+        if(controller.isGrounded)
         {
-            playerVelocity.y = 0f;
+            moveDirection.y = 0f;
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                moveDirection.y = jumpForce;
+            }
         }
 
-        ///Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        ///controller.Move(move * playerSpeed * Time.deltaTime);
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-
-        Vector3 direction = transform.right * horizontal + transform.forward * vertical;
-
-        controller.Move(direction * playerSpeed * Time.deltaTime);
-
-        if (Input.GetButtonDown("Jump") && groundedPlayer)
-        {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
-        }
-
-        playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
+        moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale * Time.deltaTime);
+        controller.Move(moveDirection * Time.deltaTime);
     }
 }

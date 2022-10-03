@@ -13958,12 +13958,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7785327832996375784}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc56d628f3e47374a8c5ea43781c30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimerText: {fileID: 3239028854038057089}
+  timerText: {fileID: 3239028854038057089}
 --- !u!4 &7785327832996375790 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2130549386484546289, guid: 79c7e3edde1c77f42843572dd5636aec,

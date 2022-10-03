@@ -8,19 +8,20 @@ using System;
 
 public class Timer : MonoBehaviour
 {
-    public Text TimerText;
-
-    public Stopwatch timer;
+    public Text timerText;
+    public float time;
 
     void Start()
     {
-        timer = new Stopwatch();
-        timer.Start();
+        
     }
 
     void Update()
     {
-        TimeSpan timespan = timer.Elapsed;
-        TimerText.text = string.Format ("{0:00}:{1:00}.{2:00}", timespan.Minutes, timespan.Seconds, timespan.Milliseconds / 10);
+        time += Time.deltaTime;
+        string hours = Mathf.Floor((time % 216000)/3600).ToString("0");
+        string minutes = Mathf.Floor((time % 3600)/60).ToString("00");
+        string seconds = (time % 60).ToString("00");
+        timerText.text = hours + ":" + minutes + "." + seconds;
     }
 }

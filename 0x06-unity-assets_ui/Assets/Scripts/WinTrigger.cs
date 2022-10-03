@@ -6,21 +6,17 @@ using UnityEngine.UI;
 // Changes display of timer once player hits flag
 public class WinTrigger : MonoBehaviour
 {
-    public Text TimerText;
-    public Timer TimerScript;
-    public GameObject Player;
+    public Text timerText;
+    public Canvas WinCanvas;
 
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter(Collider change)
     {
-       TimerScript = Player.GetComponent<Timer>();
-    }
-
-    // When player touches flag
-    void OnTriggerEnter(Collider collider)
-    {
-        TimerScript.enabled = false;
-        TimerText.fontSize = 80;
-        TimerText.color = Color.green;
+        if (change.name == "Player")
+        {
+            change.gameObject.GetComponent<Timer>().enabled = false;
+            timerText.fontSize = 84;
+            timerText.color = Color.green;
+            WinCanvas.enabled = true;
+        }
     }
 }
